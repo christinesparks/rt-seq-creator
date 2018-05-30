@@ -14,6 +14,9 @@
 			<Item Name="RT Sequence Creator API.lvlib" Type="Library" URL="../API/RT Sequence Creator API.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="NationalInstruments.VeriStand.DataTypes" Type="Document" URL="NationalInstruments.VeriStand.DataTypes">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi" Type="Document" URL="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApi">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
